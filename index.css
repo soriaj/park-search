@@ -1,0 +1,50 @@
+* {
+   box-sizing: border-box;
+ }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+button, input {
+   padding: 5px;
+   margin: 5px;
+}
+button:hover {
+   cursor: pointer;
+}
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h1 {
+   text-align: center;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+}
+form label {
+   padding: 5px;
+}
+input {
+   margin: 5px;
+}
+ul {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+}
+a:hover {
+   color: purple;
+}
+.error-message {
+   color: red;
+}
+.hidden {
+   display: none;
+}
